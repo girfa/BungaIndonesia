@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/detail_gambar"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_nama"
+            android:textSize="11pt"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_latin"
+            android:textStyle="italic"
+            android:textSize="9pt"
+            android:textColor="@android:color/black"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_keterangan"
+            android:justificationMode="inter_word"
+            android:textColor="@android:color/black"
+            android:textSize="9pt"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_url"
+            android:textSize="9pt"
+            android:autoLink="web"
+            android:textColor="@color/colorAccent"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
